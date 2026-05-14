@@ -1,0 +1,28 @@
+
+
+#################### INPUT #######################
+Number of keys: 6
+Number of required keys: 4
+Secret: 42
+
+
+#################### CREATE #######################
+1: 		 Use 371293 for finite field
+2: (HIDDEN) 	 Random coefficients:  [359777, 249700, 239652]
+3: (HIDDEN) 	 Created polynomial:  f(x) = 239652x^3 + 249700x^2 + 359777x^1 + 42
+4: 		 Calculate f(x) for x[1, 2, 3, 4, 5, 6]
+
+5: 		 Distribute values separately to end users:
+
+Secret 1: 106585 	 (1:106585)
+Secret 2: 293975 	 (2:293975)
+Secret 3: 143659 	 (3:143659)
+Secret 4: 350963 	 (4:350963)
+Secret 5: 126041 	 (5:126041)
+Secret 6: 164219 	 (6:164219)
+
+
+#################### DECRYPT #######################
+1: 		 Let each end user input their own key
+2: 		 Users entered:  [(1, 106585), (2, 293975), (3, 143659), (6, 164219)]
+recovered_secret 42
