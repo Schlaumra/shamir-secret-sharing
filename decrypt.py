@@ -12,7 +12,7 @@ def parse_input():
 
 ########################################################
 
-q = (13 ** 5)
+q = 8661085397
 
 input_x, input_y = parse_input()
 recovered_secret = interpolate(0, input_x, input_y, q)
